@@ -3,5 +3,5 @@
 task :defualt => :run
 
 task :run do
-  require './lib/hello'
+  ruby '-Ilib', 'lib/hello.rb'
 end
